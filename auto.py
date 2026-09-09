@@ -14,8 +14,8 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "8870070946:AAFv_6DD0_7o37KDYEKtC7D9MhhE9wKY2u8"
-ADMIN_ID = 8272939467
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+ADMIN_ID = int(os.getenv("ADMIN_ID"))
 CHANNEL_LINK = "https://t.me/CHUHA_WORLD"
 CHANNEL_ID = -1003564148621
 FIREBASE_DATA_CHANNEL = -1004495046238
