@@ -16,9 +16,9 @@ logger = logging.getLogger(__name__)
 
 BOT_TOKEN = "xxxxxxxxxxxxxxxxxx"
 ADMIN_ID = xxxxxxxxxxx
-CHANNEL_LINK = "https://t.me/+dw1_dzdlnGcyNjQ1"
-CHANNEL_ID = -1002256465587
-FIREBASE_DATA_CHANNEL = -1004314858694
+CHANNEL_LINK = "https://t.me/CHUHA_WORLD"
+CHANNEL_ID = -1003564148621
+FIREBASE_DATA_CHANNEL = -1004495046238
 
 DATA_FILE = "bot_data.pkl"
 VERSION_FILE = "bot_version.txt"
